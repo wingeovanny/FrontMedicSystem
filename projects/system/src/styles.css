@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+    display: flex;
+}
+
+.list-task {
+    flex: 1 1 70%;
+}
+
+.form-task {
+    flex: 1 1 30%;
+}
