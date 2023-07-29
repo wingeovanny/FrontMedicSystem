@@ -1,0 +1,8 @@
+<h1>Lists of tasks</h1>
+<ul>
+    <li *ngFor="let task of tasks">
+        {{task.title}}
+        <amb-responsible name="{{task.responsibleName}}" point="{{task.points}}"></amb-responsible>
+        <amb-show-time [currentDate]="task.startDate" ></amb-show-time><br>
+    </li>
+</ul>
